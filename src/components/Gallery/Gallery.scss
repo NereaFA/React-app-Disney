@@ -1,0 +1,30 @@
+.c-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    &__item {
+        // width: calc(100% - 4px);
+        width: 90%;
+        height: 90%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 2%;
+        background-image: url("https://i0.wp.com/tutiendadetelas.com/wp-content/uploads/2020/11/disneydibujos-96.jpg?fit=1589%2C1589&ssl=1");
+        background-size: cover;
+        background-position: center;
+        // background-color: rgb(101, 132, 160);
+        border: 2px solid;
+        border-radius: 10px;
+        // display: flex;
+        justify-content: center;
+    }
+    &__img{
+        object-fit: cover;
+        width: 50%;
+        height: 60%;
+    &__text{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        border: 1px;
+    }
+    }
+}
